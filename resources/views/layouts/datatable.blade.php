@@ -6,6 +6,8 @@
     src="https://cdn.datatables.net/1.10.12/js/dataTables.bootstrap.min.js"></script>
 <link rel="stylesheet"  href="https://cdn.datatables.net/1.10.12/css/dataTables.bootstrap.min.css">
 <meta name="csrf-token" content="{{ csrf_token() }}" />
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css"/>
+
 <script>
   $(document).ready(function() {
     $('#table').DataTable();
